@@ -1,0 +1,91 @@
+
+.propertycontainer{
+    display: flex;
+    flex-direction: column;
+    margin:  0px 30px;
+    overflow-y: scroll;
+}
+
+.tablehead{
+    display: flex;
+    flex-direction: row;   
+    background: #FFFFFF;
+    margin-top: 10px;
+    padding: 12px 0px;
+    /* height: 65px; */
+    align-items: center;
+    column-gap: 1px;
+    /* margin-right: 42px; */
+    border-radius:15px;
+}
+
+
+
+
+.tabledata{
+    display: flex;
+    flex-direction: row;  
+    border-radius:15px;
+    /* margin: 0px 30px; */
+    padding: 10px 0px;
+    /* height: 65px; */
+    margin-top: 8px;
+    align-items: center;
+    background: #FFFFFF;
+    column-gap: 1px;
+}
+.tabledata:hover{
+    display: flex;
+    flex-direction: row;  
+    border-radius:15px;
+    /* margin: 0px 30px; */
+    padding: 10px 0px;
+    /* height: 65px; */
+    margin-top: 8px;
+    align-items: center;
+    background: #eee8e2fc;
+    column-gap: 1px;
+}
+.thtext{
+    margin: 80px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.tdstatus,.tddays{
+    text-align: center;
+}
+.actionbtn{
+    display: flex;
+    flex-direction:row ;
+    column-gap: 5px;
+    justify-content: center;
+    color: #DFDFDF;
+    margin: 30px;
+}
+.inputField {
+    flex: 1;
+}
+.actiontxt{
+    margin-right: 30px !important;
+}
+.btncolor{
+    color: #2289FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+

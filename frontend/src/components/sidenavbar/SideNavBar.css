@@ -1,0 +1,41 @@
+.sidebarconatiner {
+    background-color: E1F9F4;
+    width: 317px;
+}
+
+.logooption {
+    display: flex;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 107px;
+    font-family: 'Source Sans Pro';
+    font-style: normal; 
+    line-height: 44px;
+}
+
+.sidesubcontainer {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.navvalue {
+    margin-left: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.property {
+    color: #2289FF;
+}
+
+.sideoption {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.sidelogout{
+    margin-top: 500px;
+}

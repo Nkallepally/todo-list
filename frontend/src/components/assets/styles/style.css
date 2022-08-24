@@ -1,0 +1,112 @@
+
+.add-property-container {
+    margin-top: 30px;
+    /* display: block; */
+    width: 95%;
+    height: 40%;
+    margin-left: 25px;
+}
+.add-property-container h3{
+    color: gray;
+    float: left;
+    margin-right: 500px;
+    margin-bottom: 30px;
+}
+.navbar {
+    background-color: white;
+    border-radius: 50px;
+    margin: 0px auto 0px 150px ;
+}
+
+.mainform{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0px;
+}
+@media screen and (min-width: 768px) {
+    .form-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: auto;
+        padding: 10px;
+        align-content: space-around;
+        width: 68%;
+        padding-left: 70px;
+    }
+    .formtwo-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: auto;
+        padding: 10px;
+        align-content: space-around;
+        width: 95%;
+        padding-left: 30px;
+    }
+}
+
+.selection-input {
+    width: 263px;
+    height: 32px;   
+    border-color:#C3C3C3;
+    color:#7D7D7D;
+    border-radius: 6px;
+    padding-left: 8px;
+}
+
+.input {
+    width: 256px;
+    height: 27px;
+    border-color: gainsboro;
+    border: 1px solid #C3C3C3;
+    color:#7D7D7D;
+    border-radius: 6px;
+    padding-left: 8px;
+}
+.twobtn{
+    margin-top: 10px;
+}
+
+.btn1 {
+    background-color:#6AB4F8;
+    color: white;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 12px;
+    width: 150px;
+    border: none;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.22);
+}
+.btn1:hover{
+    background-color:#428dd2;
+    color: white;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 12px;
+    width: 150px;
+    border: none;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.341);
+}
+
+.btn2 {
+    background-color:#4C57B6;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.22);
+}
+.btn2:hover {
+    background-color:#30398b;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.341);
+}
+
+/* #camera{
+    width: 10%;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#camera-label{
+position: absolute;
+margin-top: 60px;
+margin-left:10px ;
+    
+} */
